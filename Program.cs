@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace RemotingClient
+namespace RemoteServer
 {
     static class Program
     {
@@ -14,7 +14,7 @@ namespace RemotingClient
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            Application.Run(new Form1());
         }
     }
 }
